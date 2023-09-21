@@ -28,16 +28,16 @@ const Login = () => {
     }
   };
 
-  const handleGoogleSignIn = async (e) => {
-    e.preventDefault();
-    try {
-      await googleSignIn();
-      toast.success("Sign in Successful!");
-      navigate("/notes");
-    } catch (err) {
-      toast.error(err.message);
-    }
-  };
+  // const handleGoogleSignIn = async (e) => {
+  //   e.preventDefault();
+  //   try {
+  //     await googleSignIn();
+  //     toast.success("Sign in Successful!");
+  //     navigate("/notes");
+  //   } catch (err) {
+  //     toast.error(err.message);
+  //   }
+  // };
 
   return (
     <div className="login-container">
