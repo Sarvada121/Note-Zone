@@ -4,13 +4,13 @@ import { getStorage } from "firebase/storage";
 import { getFirestore, collection } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBZacPr3OiXCxdFW0yn_BbfEKqyxf2zJEg",
-  authDomain: "note-zone-3222f.firebaseapp.com",
-  projectId: "note-zone-3222f",
-  storageBucket: "note-zone-3222f.appspot.com",
-  messagingSenderId: "152188963426",
-  appId: "1:152188963426:web:e6e43c7faa8bf85bf21f3b",
-  measurementId: "G-JEFJLQF7QH",
+  apiKey: "AIzaSyD3FNhV2FZbgo4cmakJZJu5p3UNVdwotkE",
+  authDomain: "notes-1a304.firebaseapp.com",
+  projectId: "notes-1a304",
+  storageBucket: "notes-1a304.appspot.com",
+  messagingSenderId: "334213771230",
+  appId: "1:334213771230:web:026fec380d39e48d9bf74f",
+  measurementId: "G-8LY5QNT6GK"
 };
 
 // Initialize Firebase
